@@ -10,13 +10,13 @@ $ git clone https://github.com/Cobra16319/TF-Backend-Example.git"
 Ensure you comment out the backend config with a # /// This will allow you to first check your credentials and create the S3 bucket and data base first. Once in that order they are created. Also, ensure you have your credentials i.e in Vault or encrypted as you see fit. In the relitive path i.e. ["/home/server_name/.aws/ninja/cred"] also remember S3 is global and to ensure a unique naming convention for dev, staging, prod etc...  Once complete 
 
 ```
-$ terraform init"
+$ terraform init
 ```
 ```
-$ terraform plan"
+$ terraform plan
 ```
 ```
-$ terraform apply"
+$ terraform apply
 ```
  
 
