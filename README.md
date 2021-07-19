@@ -5,7 +5,7 @@ This is a tutorial to understand and use AWS Terraform in a team with a remote b
 $ git clone https://github.com/Cobra16319/TF-Backend-Example.git"
 ```
 
-
+![image](https://user-images.githubusercontent.com/46206055/126203906-f8cc1e0d-6233-4d20-9877-df00687ffc38.png)
 
 Ensure you comment out the backend config with a # /// This will allow you to first check your credentials and create the S3 bucket and data base first. Once in that order they are created. Also, ensure you have your credentials i.e in Vault or encrypted as you see fit. In the relitive path i.e. ["/home/server_name/.aws/ninja/cred"] also remember S3 is global and to ensure a unique naming convention for dev, staging, prod etc...  Once complete 
 
